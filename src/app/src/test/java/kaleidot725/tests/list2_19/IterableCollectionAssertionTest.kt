@@ -5,7 +5,7 @@ import org.junit.Test
 
 class IterableCollectionAssertionTest {
     @Test
-    fun iterate_collection_assertion() {
+    fun iterableCollectionAssert() {
         val target = listOf("Giants", "Dodgers", "Athletics")
 
         assertThat(target)

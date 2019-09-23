@@ -8,7 +8,7 @@ class BallTeamTest() {
     data class BallTeam(val name : String, val city : String, val stadium : String)
 
     @Test
-    fun ball_team_assert() {
+    fun ballTeamAssert() {
         val target = listOf(
             BallTeam("Giants", "San Francisco", "AT&T Park"),
             BallTeam("Dodgers", "Los Angels", "Dodger Stadium"),

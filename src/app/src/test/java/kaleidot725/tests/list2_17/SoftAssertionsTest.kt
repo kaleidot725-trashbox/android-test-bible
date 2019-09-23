@@ -5,7 +5,7 @@ import org.junit.Test
 
 class SoftAssertionsTest {
     @Test
-    fun softassertions() {
+    fun softAssert() {
         SoftAssertions().apply {
             assertThat("TOKYO")
                 .`as`("TEXT CHECK TOKYO")

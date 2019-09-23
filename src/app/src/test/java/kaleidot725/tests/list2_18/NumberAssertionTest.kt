@@ -6,7 +6,7 @@ import org.junit.Test
 
 class NumberAssertionTest {
     @Test
-    fun numberassesrt()
+    fun numberAssert()
     {
         assertThat(3.14159)
             .isNotZero()
