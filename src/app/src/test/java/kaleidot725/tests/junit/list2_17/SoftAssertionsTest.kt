@@ -1,4 +1,4 @@
-package kaleidot725.tests.list2_17
+package kaleidot725.tests.junit.list2_17
 
 import org.assertj.core.api.SoftAssertions
 import org.junit.Test

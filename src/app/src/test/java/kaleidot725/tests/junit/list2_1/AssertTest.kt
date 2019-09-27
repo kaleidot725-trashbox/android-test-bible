@@ -1,4 +1,4 @@
-package kaleidot725.tests.list2_1
+package kaleidot725.tests.junit.list2_1
 
 import org.junit.Test
 

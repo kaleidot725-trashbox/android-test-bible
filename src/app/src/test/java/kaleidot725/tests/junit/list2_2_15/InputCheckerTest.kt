@@ -1,4 +1,4 @@
-package kaleidot725.tests.list2_2_15
+package kaleidot725.tests.junit.list2_2_15
 
 import org.junit.After
 import org.junit.Before

@@ -1,4 +1,4 @@
-package kaleidot725.tests.list2_19
+package kaleidot725.tests.junit.list2_19
 
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.Test

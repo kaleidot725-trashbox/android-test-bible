@@ -1,4 +1,4 @@
-package kaleidot725.tests.list2_22
+package kaleidot725.tests.junit.list2_22
 
 import org.assertj.core.api.Assertions.assertThatExceptionOfType
 import org.junit.Test

@@ -1,4 +1,4 @@
-package kaleidot725.tests.list2_23_30
+package kaleidot725.tests.junit.list2_23_30
 
 class SpyWeatherFormatter : WeatherFormatter() {
     var weather : Weather? = null
