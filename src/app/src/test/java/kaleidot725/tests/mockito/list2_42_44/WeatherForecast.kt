@@ -1,4 +1,4 @@
-package kaleidot725.tests.mockito.list2_40
+package kaleidot725.tests.mockito.list2_42_44
 
 class WeatherForecast(
     private val satellite: Satellite,
@@ -15,7 +15,7 @@ class WeatherForecast(
 
     fun recordCurrentWeather(latitude: Double, longitude: Double) {
         val weather = satellite.getWeather(latitude, longitude)
-        val formatted = formatter.format(weather)
-        return recorder.record(formatted)
+        val description = formatter.format(weather)
+        return recorder.record(Record(description))
     }
 }
