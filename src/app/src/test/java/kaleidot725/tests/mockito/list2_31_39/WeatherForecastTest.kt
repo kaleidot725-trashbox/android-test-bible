@@ -1,20 +1,17 @@
 package kaleidot725.tests.mockito.list2_31_39
 
+import com.nhaarman.mockitokotlin2.any
 import org.assertj.core.api.Assertions
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.Before
 import org.junit.Test
-import org.mockito.ArgumentMatchers.any
 import org.mockito.Mockito
 import org.mockito.Mockito.mock
-import java.lang.RuntimeException
-
-fun <T> any(): T = Mockito.any<T>()
 
 class WeatherForecastTest {
-    lateinit var weatherForecast : WeatherForecast
-    lateinit var recorder : WeatherRecorder
-    lateinit var formatter : WeatherFormatter
+    lateinit var weatherForecast: WeatherForecast
+    lateinit var recorder: WeatherRecorder
+    lateinit var formatter: WeatherFormatter
 
     @Before
     fun setUp() {
@@ -28,7 +25,8 @@ class WeatherForecastTest {
             val longitude = invocation.arguments[1] as Double
 
             if (latitude in 20.424086..45.55099 &&
-                longitude in 122.033872..153.980789) {
+                longitude in 122.033872..153.980789
+            ) {
                 return@thenAnswer Weather.SUNNY
             } else {
                 return@thenAnswer Weather.RAINY
@@ -64,7 +62,7 @@ class WeatherForecastTest {
         Assertions.assertThatExceptionOfType(RuntimeException::class.java).isThrownBy {
             weatherForecast.shouldBringUmbrella(37.580006, -122.345106)
         }
-        .withMessage("ERROR")
-        .withNoCause()
+            .withMessage("ERROR")
+            .withNoCause()
     }
 }

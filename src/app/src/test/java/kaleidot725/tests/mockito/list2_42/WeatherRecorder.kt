@@ -1,4 +1,4 @@
-package kaleidot725.tests.mockito.list2_31_39
+package kaleidot725.tests.mockito.list2_40
 
 open class WeatherRecorder {
     open fun record(weather: String) {
