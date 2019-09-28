@@ -5,6 +5,8 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 
+//@Config(minSdk = 16, maxSdk = 28)
+//@Config(sdk = [LOLLIPOP, LOLLIPOP_MR1])
 @RunWith(RobolectricTestRunner::class)
 class InputCheckerTest {
     @Test
