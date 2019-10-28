@@ -1,4 +1,4 @@
-package service
+package kaleidot725.tests.service
 
 data class License(
     val key: String,

@@ -1,4 +1,4 @@
-package kaleidot725.tests.room.list3_11_17
+package kaleidot725.tests.list3_11_17
 
 import androidx.room.Room
 import androidx.test.platform.app.InstrumentationRegistry
@@ -59,7 +59,7 @@ class EncloseTest {
             val shiroyamaOwners = repositoryLocalDataSource.findByOwner("shiroyama")
             assertThat(shiroyamaOwners).hasSize(2)
         }
-        
+
         @Test
         fun findByOwner_givenYamazaki_returnsSizeCount1() {
             val yamazakiOwners = repositoryLocalDataSource.findByOwner("yamazaki")

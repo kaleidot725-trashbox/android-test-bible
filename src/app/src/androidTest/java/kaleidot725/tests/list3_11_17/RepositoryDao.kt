@@ -1,4 +1,4 @@
-package kaleidot725.tests.room.list3_11_17
+package kaleidot725.tests.list3_11_17
 
 import androidx.room.*
 

@@ -1,4 +1,4 @@
-package service
+package kaleidot725.tests.service
 
 import io.reactivex.Single
 import retrofit2.http.GET
@@ -12,5 +12,11 @@ interface GitHubService {
 class GitHubRemoteDataSource(val gitHubServicde: GitHubService) {
     fun listRepos(user: String): Single<List<Repo>> {
         return gitHubServicde.listRepos(user)
+    }
+}
+
+class GitHubRepository(val dataSource: GitHubRemoteDataSource) {
+    fun listRepos(user: String): Single<List<Repo>> {
+        return dataSource.listRepos(user)
     }
 }
