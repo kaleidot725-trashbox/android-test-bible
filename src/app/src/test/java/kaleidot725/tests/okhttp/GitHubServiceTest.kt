@@ -12,6 +12,8 @@ import org.junit.Test
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
+import service.GitHubRemoteDataSource
+import service.GitHubService
 import java.io.BufferedReader
 import java.io.InputStreamReader
 

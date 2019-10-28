@@ -1,4 +1,4 @@
-package kaleidot725.tests.okhttp
+package service
 
 data class Repo(
     val archive_url: String,

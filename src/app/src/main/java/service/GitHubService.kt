@@ -1,4 +1,4 @@
-package kaleidot725.tests.okhttp
+package service
 
 import io.reactivex.Single
 import retrofit2.http.GET
